@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <video autoplay muted loop class="hero-video">
-            <source src="your-video.mp4" type="video/mp4">
-        </video>
+        <div class="video-container">
+            <video autoplay muted loop class="hero-video">
+                <source src="your-video.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="hero-overlay"></div>
         <h1>CASE 01</h1>
     </header>
@@ -63,5 +65,11 @@
     <footer>
         <p class="footer-text">Copyright © 2025 Life Compass. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.addEventListener("scroll", function() {
+            document.querySelector("main").classList.add("visible");
+        });
+    </script>
 </body>
 </html>
