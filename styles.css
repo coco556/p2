@@ -5,6 +5,13 @@ body {
     background-color: #f5f5f5;
 }
 
+.bg-image {
+    background-image: url('path/to/your/image.jpg'); /* 背景画像のパスを指定 */
+    background-size: cover; /* 画像をセクション全体にカバー */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+}
+
 .header {
     background-color: #333;
     color: white;
