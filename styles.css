@@ -30,16 +30,37 @@ ul {
   box-sizing: border-box; /* パディングを含む幅の計算 */
 }
 
-/* 背景画像セクション */
-.bg-image {
-  background-image: url('https://github.com/coco556/p2/blob/main/rogo.png?raw=true'); /* 背景画像のパスを指定 */
-  background-size: cover; /* 画像をセクション全体にカバー */
-  background-position: center; /* 画像を中央に配置 */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  min-height: 200px; /* セクションの最小高さを設定 */
-}
-
 /* 背景色セクション */
-.bg-color {
-  background-color: #FFCC00; /* 背景色を指定 */
+.bg-main-title {
+  background-color: #DFFFD6; /* 黄緑 */
+}
+.bg-effect {
+  background-color: #F0FFF0; /* 薄い黄緑 */
+}
+.bg-closing {
+  background-color: #FFFAF0; /* 薄い黄色 */
+}
+.bg-problem {
+  background-color: #FFFACD; /* レモン色 */
+}
+.bg-solution {
+  background-color: #FFF8DC; /* コーンシルク */
+}
+.bg-benefit {
+  background-color: #FFFFE0; /* ライトイエロー */
+}
+.bg-case {
+  background-color: #FFEFDB; /* 薄いオレンジ */
+}
+.bg-usage {
+  background-color: #FAFAD2; /* ライトゴールデンロッドイエロー */
+}
+.bg-future {
+  background-color: #FFFFF0; /* アイボリー */
+}
+.bg-features {
+  background-color: #FFF5EE; /* シーシェル */
+}
+.bg-flow {
+  background-color: #F5FFFA; /* ミントクリーム */
 }
