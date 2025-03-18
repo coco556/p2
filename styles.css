@@ -24,7 +24,6 @@ ul {
 
 /* セクションスタイル */
 .section {
-  margin-bottom: 0px; /* 各セクションの間は空白無し */
   padding: 20px; /* セクション内のコンテンツにパディングを追加 */
   width: 100%; /* セクションが全幅を占めるように設定 */
   box-sizing: border-box; /* パディングを含む幅の計算 */
@@ -63,4 +62,14 @@ ul {
 }
 .bg-flow {
   background-color: #F5FFFA; /* ミントクリーム */
+}
+
+/* CTAボタンスタイル */
+.cta-button {
+  background-color: orange; /* オレンジ色 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
