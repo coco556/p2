@@ -24,7 +24,7 @@ ul {
 
 /* セクションスタイル */
 .section {
-  margin-bottom: 20px; /* 各セクションの間に空白を追加 */
+  margin-bottom: 0px; /* 各セクションの間は空白無し */
   padding: 20px; /* セクション内のコンテンツにパディングを追加 */
   width: 100%; /* セクションが全幅を占めるように設定 */
   box-sizing: border-box; /* パディングを含む幅の計算 */
